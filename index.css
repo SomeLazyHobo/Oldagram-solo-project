@@ -1,0 +1,119 @@
+html, 
+body {
+    padding: 0;
+    background: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+html, 
+body, 
+.mainContainer, 
+.belowimagestuff {
+    margin: 0 auto;
+}
+
+.oldagramheader {
+    height: 67px;
+    border-bottom: 1px solid #c6c6c6;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainContainer {
+    background: #EDEDED;
+    width: 375px;
+}
+
+.logo {
+    width: 127px;
+}
+
+.user, 
+.logo {
+    margin: 15px 12px;
+}
+
+header, 
+.post {
+    background: #FFFFFF;
+}
+
+.post {
+    margin-bottom: 25px;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.icon {
+    width: 20px;
+    height: 21px;
+    padding-right: 10px;
+    margin-bottom: -5px;
+}
+
+.icon,
+.postimage,
+#likes,
+.username,
+.avatar,
+.logo,
+.name,
+.location {
+    cursor: pointer;
+}
+
+.icon:hover,
+.icon:focus {
+    opacity: 0.6;
+}
+
+.postimage {
+    width: 100%;
+    
+}
+
+.belowimagestuff {
+    padding: 11px 10px 1px; 
+}
+
+.username, 
+.name, 
+#likes {
+    font-weight: 700;
+}
+
+.comment, 
+.username, 
+.name, 
+#likes {
+    font-size: 13px;
+}
+
+.location {
+    font-size: 12px;
+}
+
+.namelocationbox {
+    flex-direction: column;
+    padding-left: 7px;
+}
+
+.namelocationbox, 
+.oldagramheader, 
+.headerinfo {
+    display: flex;
+}
+
+.headerinfo {
+    padding: 10px;
+}
+
+.usernamecomment {
+    margin-top: -5px;
+}
+
